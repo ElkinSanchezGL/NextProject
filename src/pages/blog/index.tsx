@@ -16,7 +16,7 @@ export default function Pagina() {
       <div className="flex flex-col items-center mt-10 space-y-8 font-sans">
         <h1 className="text-3xl font-bold text-orange-700">Recetas destacadas</h1>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-6xl px-4">
+        <div className="grid grid-cols-4 gap-6 w-full max-w-6xl px-4">
           {posts.map((post) => (
             <div
               key={post.id}
